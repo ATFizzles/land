@@ -68,3 +68,17 @@ li{
     margin-top: 1%;
     margin-left: 19%;
 }
+
+.col-xs-3{
+    background-color: blue;
+}
+
+#one{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#onetext{
+    margin-left: 5%;
+    margin-top: 7%;
+}
