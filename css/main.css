@@ -5,15 +5,33 @@ body{
 }
 
 
-
+#navigation ul li.active-link>a{
+    text-decoration: underline;
+    color: blue;
+}
 
 h1{
     margin-left:  25%;
-    margin-top:  10%; 
+    margin-top:  5%; 
     font-size:  50px; 
 }
 
+h2{
+    margin-left: 20%;
+    margin-top: 10%;
+}
 
+#welrow{
+    margin-left: 25%;
+}
+
+#con{
+    margin-left: 36%;
+}
+
+#conrow{
+    margin-left: 25%;
+}
 
 li{
     text-align: center;
