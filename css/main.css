@@ -5,9 +5,13 @@ body{
 }
 
 
+ul{
+    width: 100%;
+}
+
+
 #navigation ul li.active-link>a{
     text-decoration: underline;
-    color: blue;
 }
 
 h1{
@@ -16,13 +20,23 @@ h1{
     font-size:  50px; 
 }
 
+#stick{
+    background-color: rgba(128, 128, 128, 1);
+    width: 1370px;
+    height: 105px;
+    position: fixed;
+    z-index: 1;
+}
+
 h2{
-    margin-left: 20%;
-    margin-top: 10%;
+    margin-left: 37%;
+    margin-top: 7%;
 }
 
 #welrow{
     margin-left: 25%;
+    padding-top: 9%;
+    z-index: 0;
 }
 
 #con{
@@ -49,7 +63,7 @@ li{
 
 #navigation a:hover { 
     text-decoration: none; 
-    color: gray; 
+    color: white; 
 } 
 
 #navigation{
@@ -70,7 +84,7 @@ li{
 }
 
 .col-xs-3{
-    background-color: blue;
+
 }
 
 #one{
@@ -81,4 +95,18 @@ li{
 #onetext{
     margin-left: 5%;
     margin-top: 7%;
+}
+
+
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    body{
+        width: 100%;
+    }
+
+    #welrow{
+        width: 100%;
+        font-size: 20px;
+    }
 }
