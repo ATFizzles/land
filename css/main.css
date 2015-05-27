@@ -18,6 +18,7 @@ h1{
     margin-left:  25%;
     margin-top:  5%; 
     font-size:  50px; 
+    width: 100%;
 }
 
 #stick{
@@ -83,6 +84,12 @@ li{
     margin-left: 19%;
 }
 
+#mail{
+    color: black;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
 .col-xs-3{
 
 }
@@ -105,12 +112,41 @@ li{
         width: 100%;
     }
 
+    #four{
+        width: 100%;
+    }
+
+    #at{
+        width: 100%;
+        font-size: 100px;
+        margin-left: 19%;
+        margin-top: 1%;
+    }
+
+    #navigation{
+        font-size: 30px;
+        padding-right: 26%;
+        display: inline;
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    #stick{
+        height: 12%;
+    }
+
     h2{
         font-size: 120px;
     }
 
+    #mail{
+        margin-left: 0%;
+        font-size: 70px;
+    }
+
     #welrow{
-        padding-top: 15%;
+        padding-top: 20%;
         width: 100%;
         font-size: 35px;
         margin-left: 2%;
