@@ -22,7 +22,7 @@ h1{
 }
 
 #stick{
-    background-color: rgba(128, 128, 128, 1);
+    background-color: #6D6A81;
     width: 1370px;
     height: 105px;
     position: fixed;
@@ -104,6 +104,23 @@ li{
     margin-top: 7%;
 }
 
+#projects{
+    margin-top: 17%;
+}
+
+#gallery{
+    margin-top: 17%;
+    margin-left: 69%;
+    margin-bottom: 5%;
+}
+
+#two{
+    margin-bottom: -5px;
+}
+
+#gal{
+    margin-left: 30%;
+}
 
 
 
