@@ -2,6 +2,7 @@ body{
     background-image:url('../images/wgbackground.jpg');
     background-position:center;
     background-attachment: fixed;
+    width: 100%;
 }
 
 
@@ -122,11 +123,6 @@ li{
     margin-left: 30%;
 }
 
-#cmon{
-    
-}
-
-
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
     body{
         width: 100%;
@@ -139,7 +135,7 @@ li{
     #at{
         width: 100%;
         font-size: 100px;
-        margin-left: 19%;
+        margin-left: 22%;
         margin-top: 1%;
     }
 
@@ -148,8 +144,9 @@ li{
         padding-right: 26%;
         display: inline;
         margin-left: 0%;
-        width: 100%;
+        width: 150%;
         margin-top: 1%;
+        padding-right: 55%;
     }
 
     #stick{
