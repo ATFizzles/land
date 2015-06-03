@@ -17,7 +17,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,7 +31,7 @@
 
         <div id="container1">
 
-        <h1>Contact Information</h1>
+        <h1 id="coninfo">Contact Information</h1>
 
         <!-- form takes in information and send it to the table -->
         <form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">

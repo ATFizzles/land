@@ -26,6 +26,8 @@
         // if success it output with a title
         echo "<p>Successfully inserting post: $first</p>";
         echo "Posted on: " . $date->format('M/D/Y') . " at " . $time->format('g:i');
+
+        //header("Location ". $path . "contact.html");
     }
     else {
         // if not successful display an error
